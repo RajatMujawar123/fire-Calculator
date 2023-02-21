@@ -1,0 +1,52 @@
+.container{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    display: grid;
+    grid-template-columns: 40% 55%;
+    grid-template-rows: 350px;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 30px;
+    width: 90%;
+    margin: auto;
+}
+
+.container > div{
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: white;
+    border-radius: 8px;
+}
+
+
+.inner{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 5px;
+}
+input{
+    margin: auto;
+    width: 60%;
+    height: 30px;
+    text-align: center;
+    border-radius: 8px;
+    border: solid teal 1px;
+}
+
+button{
+    margin: auto;
+    width: 50%;
+    height: 30px;
+    border-radius: 8px;
+    background-color: deepskyblue;
+    border: none;
+    color: white;
+    font-size: larger;
+}
+
+.inner1{
+    margin-top: 30px;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
