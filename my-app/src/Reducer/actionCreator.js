@@ -8,6 +8,7 @@ return{
 }
 }
 
+
 const handleCalculatorOnclick = (state) =>{
 
     const {expToday,curAge,retAge,infliation} = state 

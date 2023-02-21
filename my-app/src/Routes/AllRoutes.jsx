@@ -10,6 +10,9 @@ const AllRoutes = () => {
       <Routes>
         <Route path="/" element={<Navbar/>}></Route>
         {/* <Route path="/counter" element={<Counter/>}/> */}
+
+
+        
         <Route path="/fire" element={<FireCalculator/>}/>
       </Routes>
     </div>
